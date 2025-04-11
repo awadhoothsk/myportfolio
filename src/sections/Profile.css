@@ -1,0 +1,31 @@
+.profile-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(to bottom, #121212, #1f1f1f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    min-height: 60vh;
+  }
+  
+  .profile-container {
+    max-width: 800px;
+  }
+  
+  .profile-name {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #00f0ff, #00ff9c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-tagline {
+    font-size: 1.25rem;
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
