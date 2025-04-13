@@ -12,12 +12,10 @@ const Profile: React.FC = () => {
         />
         <div className="profile-info">
           <h1 className="profile-name">Awadhooth Shrinivas Kulkarni</h1>
-          <p className="profile-role">Aspiring Software Developer | Tech Enthusiast</p>
-          <p className="profile-description">
-            I’m a dedicated Computer Science student passionate about developing efficient and scalable software solutions. 
-            I thrive in collaborative environments and love exploring modern tech stacks, building intuitive UIs, 
-            and solving real-world problems through code.
-          </p>
+          <p className="profile-role">Aspiring FullStack Developer | Tech Enthusiast</p>
+          <a href="./../../public/AWADHOOTH_SIT.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+            View My Resume
+          </a>
         </div>
       </div>
     </section>

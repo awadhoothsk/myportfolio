@@ -21,11 +21,11 @@ const Projects: React.FC = () => {
           <span className="project-tech">Python, TensorFlow, Streamlit</span>
         </div>
         <div className="project-card">
-          <h3 className="project-title">Bike Rental Prediction</h3>
+          <h3 className="project-title">Hacker-news Server</h3>
           <p className="project-description">
-            Developed a predictive RNN model for forecasting daily bike rentals.
+            Cloneded a backend server similar to Hackernews Website.
           </p>
-          <span className="project-tech">Python, RNN, TensorFlow</span>
+          <span className="project-tech">PostgreSQL, Nodejs</span>
         </div>
         <div className="project-card">
           <h3 className="project-title">Wholesale Management</h3>

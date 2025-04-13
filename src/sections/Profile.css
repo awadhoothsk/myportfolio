@@ -12,8 +12,9 @@
 
 /* Profile container */
 .profile-container {
-  max-width: 1200px; /* Increased the width to allow more space */
+  max-width: 1200px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 2rem;
   justify-content: center;
@@ -37,21 +38,27 @@
 
 /* Profile info container */
 .profile-info {
-  max-width: 800px; /* Adjusted the max width for the profile info */
+  max-width: 800px;
 }
 
 /* Profile name */
 .profile-name {
-  font-size: 3.5rem; /* Ensure font size is still large */
+  font-size: 3.5rem;
   font-weight: bold;
   background: linear-gradient(to right, #00f0ff, #00ff9c);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.5rem;
-  white-space: nowrap; /* Ensures the name stays on one line */
-  overflow: hidden; /* Prevents overflow if the name is too long */
-  text-overflow: ellipsis; /* Adds ellipsis if the name is too long */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile-name:hover {
+  color: #00f0ff;
+  transition: color 0.3s ease-in-out;
+  transform: scale(1.05);
 }
 
 /* Profile role (tagline) */
@@ -60,10 +67,32 @@
   color: #ccc;
   margin-bottom: 1rem;
 }
+.profile-role:hover {
+  color: #00f0ff;
+  transition: color 0.3s ease-in-out;
+  transform: scale(1.05);
+}
 
-/* Profile description */
-.profile-description {
+/* Resume Button */
+.resume-button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #00f0ff;
+  color: #121212;
   font-size: 1.2rem;
-  line-height: 1.8;
-  color: #bbb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #00ff9c;
+  transform: scale(1.05);
+}
+
+.resume-button:focus {
+  outline: none;
 }
