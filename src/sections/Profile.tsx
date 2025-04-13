@@ -13,7 +13,7 @@ const Profile: React.FC = () => {
         <div className="profile-info">
           <h1 className="profile-name">Awadhooth Shrinivas Kulkarni</h1>
           <p className="profile-role">Aspiring FullStack Developer | Tech Enthusiast</p>
-          <a href="./../../public/AWADHOOTH_SIT.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+          <a href="./public/AWADHOOTH_SIT.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
             View My Resume
           </a>
         </div>
