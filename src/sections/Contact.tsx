@@ -7,35 +7,28 @@ const Contact: React.FC = () => (
     <h2 className="contact-heading">Contact</h2>
     <p className="contact-subtitle">Let’s connect! Reach out through any platform below:</p>
 
-
-    
-
-
-
-    <ul className="contact-list">
-      <li>
+    <div className="contact-list">
+      <div className="contact-item">
         <FaEnvelope className="contact-icon" />
         <span>Email:</span>
-        <a href="mailto:awadhooths16@gmail.com">awadhooths16@gmail.com</a>
-      </li>
-      <li>        
-      <FaGithub className="contact-icon" />
-      <span>GitHub:</span>
-      <a href="https://github.com/awadhoothsk" target='_blank' rel='noopener noreferrer' >@awadhoothsk</a>
-    </li>
-      <li>
+        <p><a href="mailto:awadhooths16@gmail.com">awadhooths16@gmail.com</a></p>
+      </div>
+      <div className="contact-item">
+        <FaGithub className="contact-icon" />
+        <span>GitHub:</span>
+        <p><a href="https://github.com/awadhoothsk" target="_blank" rel="noopener noreferrer">@awadhoothsk</a></p>
+      </div>
+      <div className="contact-item">
         <FaInstagram className="contact-icon" />
         <span>Instagram:</span>
-        <a href="https://instagram.com/awadhoothsk" target="_blank" rel="noopener noreferrer">@awadhoothsk</a>
-      </li>
-      <li>
+        <p><a href="https://instagram.com/awadhoothsk" target="_blank" rel="noopener noreferrer">@awadhoothsk</a></p>
+      </div>
+      <div className="contact-item">
         <FaLinkedin className="contact-icon" />
         <span>LinkedIn:</span>
-        <a href="https://www.linkedin.com/in/awadhoothskulkarni/" target="_blank" rel="noopener noreferrer">
-          awadhoothskulkarni
-        </a>
-      </li>
-    </ul>
+        <p><a href="https://www.linkedin.com/in/awadhoothskulkarni/" target="_blank" rel="noopener noreferrer">awadhoothskulkarni</a></p>
+      </div>
+    </div>
   </section>
 );
 
