@@ -1,27 +1,42 @@
 import React from 'react';
-import './Profile.css';
+import './Projects.css';
 
-const Profile: React.FC = () => {
+const Projects: React.FC = () => {
   return (
-    <section className="profile-section" id="profile">
-      <div className="profile-container">
-        <img 
-          src="/pic.jpg" 
-          alt="Profile" 
-          className="profile-img"
-        />
-        <div className="profile-info">
-          <h1 className="profile-name">Awadhooth Shrinivas Kulkarni</h1>
-          <p className="profile-role">Aspiring Software Developer | Tech Enthusiast</p>
-          <p className="profile-description">
-            I’m a dedicated Computer Science student passionate about developing efficient and scalable software solutions. 
-            I thrive in collaborative environments and love exploring modern tech stacks, building intuitive UIs, 
-            and solving real-world problems through code.
+    <section className="projects-section" id="projects">
+      <h2 className="projects-heading">Projects</h2>
+      <div className="projects-grid">
+        <div className="project-card">
+          <h3 className="project-title">Restaurant Management System</h3>
+          <p className="project-description">
+            Created a system for order placement, billing, and menu management using C++ and SQL.
           </p>
+          <span className="project-tech">C++, SQL</span>
+        </div>
+        <div className="project-card">
+          <h3 className="project-title">Brain Tumor Classification</h3>
+          <p className="project-description">
+            Built a CNN model in TensorFlow to classify brain tumors with Streamlit-based UI.
+          </p>
+          <span className="project-tech">Python, TensorFlow, Streamlit</span>
+        </div>
+        <div className="project-card">
+          <h3 className="project-title">Bike Rental Prediction</h3>
+          <p className="project-description">
+            Developed a predictive RNN model for forecasting daily bike rentals.
+          </p>
+          <span className="project-tech">Python, RNN, TensorFlow</span>
+        </div>
+        <div className="project-card">
+          <h3 className="project-title">Wholesale Management</h3>
+          <p className="project-description">
+            Designed a wholesale system with inventory tracking and order management using SQL.
+          </p>
+          <span className="project-tech">SQL</span>
         </div>
       </div>
     </section>
   );
 };
 
-export default Profile;
+export default Projects;

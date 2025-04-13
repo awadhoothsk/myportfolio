@@ -1,11 +1,16 @@
 import React from 'react';
 import './Contact.css';
-import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact: React.FC = () => (
   <section className="contact-section" id="contact">
     <h2 className="contact-heading">Contact</h2>
     <p className="contact-subtitle">Let’s connect! Reach out through any platform below:</p>
+
+
+    
+
+
 
     <ul className="contact-list">
       <li>
@@ -13,6 +18,11 @@ const Contact: React.FC = () => (
         <span>Email:</span>
         <a href="mailto:awadhooths16@gmail.com">awadhooths16@gmail.com</a>
       </li>
+      <li>        
+      <FaGithub className="contact-icon" />
+      <span>GitHub:</span>
+      <a href="https://github.com/awadhoothsk" target='_blank' rel='noopener noreferrer' >@awadhoothsk</a>
+    </li>
       <li>
         <FaInstagram className="contact-icon" />
         <span>Instagram:</span>

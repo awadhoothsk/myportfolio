@@ -1,31 +1,69 @@
+/* Profile Section */
 .profile-section {
-    padding: 4rem 2rem;
-    background: linear-gradient(to bottom, #121212, #1f1f1f);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #ffffff;
-    min-height: 60vh;
-  }
-  
-  .profile-container {
-    max-width: 800px;
-  }
-  
-  .profile-name {
-    font-size: 3rem;
-    font-weight: bold;
-    background: linear-gradient(to right, #00f0ff, #00ff9c);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 1rem;
-  }
-  
-  .profile-tagline {
-    font-size: 1.25rem;
-    color: #ccc;
-    line-height: 1.6;
-  }
-  
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #121212, #1f1f1f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  min-height: 60vh;
+}
+
+/* Profile container */
+.profile-container {
+  max-width: 1200px; /* Increased the width to allow more space */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for image */
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+/* Profile info container */
+.profile-info {
+  max-width: 800px; /* Adjusted the max width for the profile info */
+}
+
+/* Profile name */
+.profile-name {
+  font-size: 3.5rem; /* Ensure font size is still large */
+  font-weight: bold;
+  background: linear-gradient(to right, #00f0ff, #00ff9c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+  white-space: nowrap; /* Ensures the name stays on one line */
+  overflow: hidden; /* Prevents overflow if the name is too long */
+  text-overflow: ellipsis; /* Adds ellipsis if the name is too long */
+}
+
+/* Profile role (tagline) */
+.profile-role {
+  font-size: 1.4rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+/* Profile description */
+.profile-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #bbb;
+}

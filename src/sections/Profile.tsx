@@ -5,9 +5,9 @@ const Profile: React.FC = () => {
   return (
     <section className="profile-section" id="profile">
       <div className="profile-container">
-        <img 
-          src="/pic.jpg" 
-          alt="Profile" 
+        <img
+          src="/pic.jpg"
+          alt="Profile"
           className="profile-img"
         />
         <div className="profile-info">
